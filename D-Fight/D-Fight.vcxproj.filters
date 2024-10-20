@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{64b7744f-05bb-42a7-b96c-b273a95c353f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState">
+      <UniqueIdentifier>{e5da7d43-1217-4dd3-9ce2-ecb5c0019b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{0db02496-b6bd-4038-920a-9e702ce6b36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{3f751854-7d1c-4349-aea7-9d515ab03113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ObjectManager">
+      <UniqueIdentifier>{cecd2343-f703-478e-aa5f-8b6cee4145ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameFramework">
+      <UniqueIdentifier>{1a7fc40f-e625-4bea-b52a-881b160ef0fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{fcc9162f-6ecb-4813-89de-3be5741cd7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Light">
+      <UniqueIdentifier>{450213a0-3614-4201-9d8e-a46b8c14a535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\AI">
+      <UniqueIdentifier>{c4e713b5-8eb0-4315-9396-0eab23f210ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\TurnBattleState">
+      <UniqueIdentifier>{4e427b5d-7698-4703-83d6-26eea85c254a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\0. Ref">
+      <UniqueIdentifier>{203efb9a-46b7-4b5d-9fd0-d039a23e8ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Globals">
+      <UniqueIdentifier>{cb653868-f081-46ea-8e79-58017d6dd621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\0. Ref">
+      <UniqueIdentifier>{fcd7ef79-ba53-4254-81b0-9ed2ee44506b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\TurnBattle">
+      <UniqueIdentifier>{69a3943b-8cfb-4604-a348-945e04d5af24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ObjectManager\0. Ref">
+      <UniqueIdentifier>{427b1428-2fd1-44d8-83b0-c3f8a7fd67d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\NormalShader">
+      <UniqueIdentifier>{b86b3049-1589-43be-bee3-1098dee157f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\EffectShader">
+      <UniqueIdentifier>{9cc0cbdc-00a4-42c2-bfef-82838709fb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Field">
+      <UniqueIdentifier>{b6cc5716-a544-468d-899a-45aa685c566a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Field\FieldMonster">
+      <UniqueIdentifier>{cdded5a5-af3c-4ac3-83ec-9e480c4bd422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\FieldState">
+      <UniqueIdentifier>{82c64c6d-7f5e-42d6-8a0f-6c39891272d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\HybridBattle">
+      <UniqueIdentifier>{b5d2bf23-a81d-4484-9fc0-a38c6d2d56b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ObjectManager\Field">
+      <UniqueIdentifier>{977eca06-d5f9-4254-8941-5c75d0bf651e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\HybridBattleState">
+      <UniqueIdentifier>{ef8b21be-c387-40a9-b81a-6e561d8ddc2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ObjectManager\HybridBattle">
+      <UniqueIdentifier>{bb4d118e-ce36-41f5-927a-ae9b0183196f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\HybridBattle\BattleMonster">
+      <UniqueIdentifier>{8c28fdf2-b86e-446b-9350-99edfc086ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Particle">
+      <UniqueIdentifier>{dd021484-9d7e-489e-8161-c4f3065193a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Skybox">
+      <UniqueIdentifier>{3074905b-462c-48a7-bb98-62987ae933a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Field\RecoverSpot">
+      <UniqueIdentifier>{92910c0e-e92f-4665-a94f-58913d1e6830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\PauseMenuState">
+      <UniqueIdentifier>{1fe40622-7cf4-4497-a812-7609b199f207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\PauseMenuState\Button">
+      <UniqueIdentifier>{26371763-84f2-420a-8941-6b1d76f15374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{ebfd64d2-55d3-47e4-9ed8-cc0ff3932f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Assimp">
+      <UniqueIdentifier>{313b79db-b9cb-425c-b6ab-b0491dc69b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\TitleMenuState">
+      <UniqueIdentifier>{855336de-a440-4154-9922-bdae9afd2e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Particle\Battle">
+      <UniqueIdentifier>{95d51b12-412a-4768-9f72-4b847b421610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Particle\World">
+      <UniqueIdentifier>{b7ad5248-ff44-4438-b6cb-991426bf590a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Particle\0. Ref">
+      <UniqueIdentifier>{44e14459-e552-49d1-8baa-5033f95d5ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\HybridBattle\BattleMonster\BossMonster">
+      <UniqueIdentifier>{172e7f3f-77ed-4928-9625-b32fc05cf361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\GameOverState">
+      <UniqueIdentifier>{3b7938a8-b766-439a-81eb-21ffd96e506a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameState\GameClearState">
+      <UniqueIdentifier>{139a7210-e221-4ad6-838c-b078e93badf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\Field\FieldMonster\FullCircleFieldMonster">
+      <UniqueIdentifier>{e544d806-7ae7-4cc2-9ea4-bc39153b8410}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Game\GameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLight.cpp">
+      <Filter>Game\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Game\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Game\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>Game\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTree.cpp">
+      <Filter>Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBattleState.cpp">
+      <Filter>Game\GameState\TurnBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBattleStateUI.cpp">
+      <Filter>Game\GameState\TurnBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBattleStateBT.cpp">
+      <Filter>Game\GameState\TurnBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.h">
+      <Filter>Game\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Game\GameState\0. Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="TestState.cpp">
+      <Filter>Game\GameState\0. Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game\Object\0. Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>Game\Object\0. Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBattleObject.cpp">
+      <Filter>Game\Object\TurnBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Game\ObjectManager\0. Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMonster.cpp">
+      <Filter>Game\Object\Field\FieldMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldMonsterBT.cpp">
+      <Filter>Game\Object\Field\FieldMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBattleStateReadData.cpp">
+      <Filter>Game\GameState\TurnBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldState.cpp">
+      <Filter>Game\GameState\FieldState</Filter>
+    </ClCompile>
+    <ClCompile Include="E-Fight.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageZone.cpp">
+      <Filter>Game\Object\HybridBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldObjectManager.cpp">
+      <Filter>Game\ObjectManager\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="HybridBattleState.cpp">
+      <Filter>Game\GameState\HybridBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnBattleForHybrid.cpp">
+      <Filter>Game\GameState\TurnBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="HybridBattleObjectManager.cpp">
+      <Filter>Game\ObjectManager\HybridBattle</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroObject.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMonster.cpp">
+      <Filter>Game\Object\HybridBattle\BattleMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMonsterBT.cpp">
+      <Filter>Game\Object\HybridBattle\BattleMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeOfDaySkybox.cpp">
+      <Filter>Game\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoverSpot.cpp">
+      <Filter>Game\Object\Field\RecoverSpot</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenuState.cpp">
+      <Filter>Game\GameState\PauseMenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Game\GameState\PauseMenuState\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationLoader.cpp">
+      <Filter>Renderer\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Renderer\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Renderer\Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMenuState.cpp">
+      <Filter>Game\GameState\TitleMenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="FountainWaterDropParticle.cpp">
+      <Filter>Game\Particle\World</Filter>
+    </ClCompile>
+    <ClCompile Include="BloodEffectParticle.cpp">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityParticle.cpp">
+      <Filter>Game\Particle\0. Ref</Filter>
+    </ClCompile>
+    <ClCompile Include="LandingDustEffectParticle.cpp">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingBallEffectParticle.cpp">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>Game\Object\HybridBattle\BattleMonster\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonsterBT.cpp">
+      <Filter>Game\Object\HybridBattle\BattleMonster\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Game\GameState\GameOverState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClearState.cpp">
+      <Filter>Game\GameState\GameClearState</Filter>
+    </ClCompile>
+    <ClCompile Include="RainDropParticle.cpp">
+      <Filter>Game\Particle\World</Filter>
+    </ClCompile>
+    <ClCompile Include="FullCircleFieldMonster.cpp">
+      <Filter>Game\Object\Field\FieldMonster\FullCircleFieldMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamParticle.cpp">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Game\GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLight.h">
+      <Filter>Game\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Game\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Game\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Game\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTree.h">
+      <Filter>Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnBattleState.h">
+      <Filter>Game\GameState\TurnBattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnBattleGobals.h">
+      <Filter>Game\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Game\GameState\0. Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="TestState.h">
+      <Filter>Game\GameState\0. Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game\Object\0. Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Game\Object\0. Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnBattleObject.h">
+      <Filter>Game\Object\TurnBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Game\ObjectManager\0. Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldMonster.h">
+      <Filter>Game\Object\Field\FieldMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldState.h">
+      <Filter>Game\GameState\FieldState</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageZone.h">
+      <Filter>Game\Object\HybridBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldObjectManager.h">
+      <Filter>Game\ObjectManager\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="HybridBattleState.h">
+      <Filter>Game\GameState\HybridBattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="HybridBattleObjectManager.h">
+      <Filter>Game\ObjectManager\HybridBattle</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroObject.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMonster.h">
+      <Filter>Game\Object\HybridBattle\BattleMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeOfDaySkybox.h">
+      <Filter>Game\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoverSpot.h">
+      <Filter>Game\Object\Field\RecoverSpot</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenuState.h">
+      <Filter>Game\GameState\PauseMenuState</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Game\GameState\PauseMenuState\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationLoader.h">
+      <Filter>Renderer\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Renderer\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Renderer\Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMenuState.h">
+      <Filter>Game\GameState\TitleMenuState</Filter>
+    </ClInclude>
+    <ClInclude Include="FountainWaterDropParticle.h">
+      <Filter>Game\Particle\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BloodEffectParticle.h">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityParticle.h">
+      <Filter>Game\Particle\0. Ref</Filter>
+    </ClInclude>
+    <ClInclude Include="LandingDustEffectParticle.h">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingBallEffectParticle.h">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>Game\Object\HybridBattle\BattleMonster\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Game\GameState\GameOverState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClearState.h">
+      <Filter>Game\GameState\GameClearState</Filter>
+    </ClInclude>
+    <ClInclude Include="RainDropParticle.h">
+      <Filter>Game\Particle\World</Filter>
+    </ClInclude>
+    <ClInclude Include="FullCircleFieldMonster.h">
+      <Filter>Game\Object\Field\FieldMonster\FullCircleFieldMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamParticle.h">
+      <Filter>Game\Particle\Battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\FragmentShader.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShader2dUI.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBillboard.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBillboardSprite.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBillboardText.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBorder.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBoundingBox.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderDepth.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderInstance.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderSkybox.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderText.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShader.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShader2dUI.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderBillboard.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderBillboardText.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderBorder.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderBoundingBox.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderDepth.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderInstance.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderSkybox.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderText.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderChangeStateEffect.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderForDamageZone.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBasicMovingParticle.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderBasicMovingParticle.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderForDamageZone.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderChangeStateEffect.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderForWater.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderForWater.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderMovingWithGravityParticle.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderMovingWithGravityParticle.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderTotalScene.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderTotalScene.glsl">
+      <Filter>Shader\NormalShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderDisplayFXAA.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderDisplayFXAA.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\FragmentShaderBlur.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+    <None Include="shader\VertexShaderBlur.glsl">
+      <Filter>Shader\EffectShader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
